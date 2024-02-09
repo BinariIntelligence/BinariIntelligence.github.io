@@ -496,7 +496,7 @@ body.active { overflow: hidden; }
 
 .about .section-text {
   font-size: var(--fs-6);
-  color: var(--white_a70);
+  color: var(--white_a75);
   font-weight: var(--fw-300);
   line-height: 1.7;
   margin-block-end: 35px;
@@ -540,12 +540,13 @@ body.active { overflow: hidden; }
   align-items: start;
   flex-wrap: wrap;
   gap: 35px 10px;
-
+  color: var(--white_a75);
 }
 
 .service-title {
   text-transform: uppercase;
   padding-bottom: 30px;
+  color: var(--white);
 }
 
 /*-----------------------------------*\
@@ -865,7 +866,7 @@ body.active { overflow: hidden; }
 
    .service-list {
     row-gap: 70px; 
-    column-gap: 15px;    
+    column-gap: 70px;    
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -1075,7 +1076,7 @@ body.active { overflow: hidden; }
   }
 
   .about .section-text {
-    --fs-6: 2.5rem;
+    --fs-6: 2rem;
     margin-block-end: 50px;
   }
 
