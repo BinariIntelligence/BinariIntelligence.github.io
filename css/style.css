@@ -492,7 +492,7 @@ body.active { overflow: hidden; }
 .about .wrapper,
 .about-banner { padding-inline-start: 45px; }
 
-.about .section-title { margin-block-end: 35px; }
+.section-title { margin-block-end: 35px; }
 
 .about .section-text {
   font-size: var(--fs-6);
@@ -528,6 +528,25 @@ body.active { overflow: hidden; }
   width: 100px;
 }
 
+
+/*-----------------------------------*\
+  #SERVICES
+\*-----------------------------------*/
+
+.service-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 35px 10px;
+
+}
+
+.service-title {
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
 
 /*-----------------------------------*\
   #CONTACT US
@@ -840,6 +859,22 @@ body.active { overflow: hidden; }
   }
 
 
+ /**
+   * SERVICES
+   */
+
+   .service-list {
+    row-gap: 70px; 
+    column-gap: 15px;    
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  /* .service-item {
+    flex-basis: 33.3333%;
+  } */
+
   /**
    * FOOTER
    */
@@ -964,7 +999,24 @@ body.active { overflow: hidden; }
 
   .header .container { padding-inline: 35px; }
 
-/**
+  /**
+   * SERVICES
+   */
+
+
+/*    .service-list {
+    row-gap: 70px; 
+    column-gap: 15px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .service-item {
+    flex-basis: 33.3333%;
+  } */
+
+  /**
    * FOOTER
    */
 
@@ -1013,7 +1065,7 @@ body.active { overflow: hidden; }
 
   .about .shape-1 { width: max-content; }
 
-  .about .section-title { margin-block-end: 70px; }
+ .section-title { margin-block-end: 70px; }
 
   .about .wrapper { padding-inline-start: 80px; }
 
