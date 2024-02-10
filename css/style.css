@@ -2,13 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -325,12 +318,12 @@ body.active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  padding-block: 18px;
+  /* padding-block: 18px; */
   transition: var(--transition-2);
   z-index: 4;
-}
+/* }
 
-.header.active {
+.header.active { */
   background-color: var(--eerie-black);
   padding-block: 12px;
   box-shadow: var(--shadow);
@@ -469,7 +462,7 @@ body.active { overflow: hidden; }
 .hero .wrapper .space { padding: 0.1em; }
 
 .usp {
-  font-size: var(--fs-10);
+  font-size: var(--fs-9);
   font-weight: var(--fw-300);
   text-transform: uppercase;
   opacity: 0.3;
@@ -495,7 +488,7 @@ body.active { overflow: hidden; }
 .section-title { margin-block-end: 35px; }
 
 .about .section-text {
-  font-size: var(--fs-6);
+  font-size: var(--fs-8);
   color: var(--white_a75);
   font-weight: var(--fw-300);
   line-height: 1.7;
@@ -505,7 +498,6 @@ body.active { overflow: hidden; }
 .about .wrapper::before {
   top: 10px;
   left: 0;
-  background-image: url("../images/about-quote.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 20px;
@@ -1054,7 +1046,7 @@ body.active { overflow: hidden; }
   }
 
   .usp {
-    --fs-10: 2rem;
+    font-size: var(--fs-7);
     font-weight: var(--fw-400);
   }
 
@@ -1076,6 +1068,7 @@ body.active { overflow: hidden; }
   }
 
   .about .section-text {
+    font-size: var(--fs-6);
     --fs-6: 2rem;
     margin-block-end: 50px;
   }
@@ -1139,7 +1132,7 @@ body.active { overflow: hidden; }
 
   .hero-banner { max-width: max-content; }
 
-  .usp { --fs-10: 2.4rem; }
+  .usp { font-size: var(--fs-7); }
 
   /**
    * ABOUT
