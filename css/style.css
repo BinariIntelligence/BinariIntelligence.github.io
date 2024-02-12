@@ -546,6 +546,27 @@ body.active { overflow: hidden; }
   color: var(--white);
 }
 
+
+/*-----------------------------------*\
+  #PORTFOLIO
+\*-----------------------------------*/
+
+.portfolio-list
+{  
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 35px 10px;  
+}
+
+.portfolio-list .img
+{
+  background-color: white;
+}
+
+
 /*-----------------------------------*\
   #CONTACT US
 \*-----------------------------------*/
@@ -554,14 +575,9 @@ body.active { overflow: hidden; }
   display: inline-flex;
   flex-direction: row;
   gap: 10px;
-  align-items: baseline;
+  align-items: center;
   color: var(--white_a80);
 }
-
-/* .social-link { font-weight: var(--fw-500); }
-
-.social-link:is(:hover, :focus-visible) { text-decoration: underline; } */
-
 
 /*-----------------------------------*\
   #FOOTER
