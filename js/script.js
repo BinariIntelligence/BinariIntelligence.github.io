@@ -11,7 +11,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 }
 
 
-
 // PRELOADING
 
 const loadingElement = document.querySelector("[data-loading]");
@@ -48,46 +47,37 @@ const closeNav = function () {
 
 addEventOnElements(navLinks, "click", closeNav);
 
-// CONTACT NAV TOGGLE
 
-const [cnavTogglers, cnavLinks, cnavbar, coverlay] = [
-  document.querySelectorAll("[data-cnav-toggler]"),
-  document.querySelectorAll("[data-cnav-link]"),
-  document.querySelector("[data-cnavbar]"),
-  document.querySelector("[data-coverlay]")
-];
+//Video play interval
 
-const togglecNav = function () {
-  cnavbar.classList.toggle("active");
-  coverlay.classList.toggle("active");
-  document.body.classList.toggle("active");
-}
-
-addEventOnElements(cnavTogglers, "click", togglecNav);
-
-const closecNav = function () {
-  cnavbar.classList.remove("active");
-  coverlay.classList.remove("active");
-  document.body.classList.remove("active");
-}
-
-addEventOnElements(cnavLinks, "click", closecNav);
-
-
-
-// HEADER & FOOTER
-
-// const header = document.querySelector("[data-header]");
-
-// const activeElementOnScroll = function () {
-//   if (window.scrollY > 50) {
-//     header.classList.add("active");
-//   } else {
-//     header.classList.remove("active");
-//   }
+// Function to replay the video
+// function replayVideo() {
+//   var video = document.getElementById('video-background');
+//   video.currentTime = 0; // Set the current playback time to the beginning
+//   video.play(); // Play the video
 // }
 
-// window.addEventListener("scroll", activeElementOnScroll);
+// // Set interval to replay the video every 2 seconds
+// setInterval(replayVideo, 15000);
+
+// var video = document.getElementById('video-background');
+
+//   video.onloadedmetadata = function() {
+//     // Set the time limits for the loop
+//     video.currentTime = 0; // start at the beginning
+//   };
+
+//   video.ontimeupdate = function() {
+//     // Check if 5 seconds have elapsed
+//     if (video.currentTime >= ) {
+//       video.pause(); // Pause the video
+//       setTimeout(function() {
+//         video.currentTime = 0; // Rewind to the start
+//         video.play(); // Play again
+//       }, 10000);
+//     }
+//   };
+
 
 /**
  * TEXT ANIMATION EFFECT FOR HERO SECTION
@@ -149,3 +139,31 @@ const scrollReveal = function () {
 window.addEventListener("scroll", scrollReveal);
 
 scrollReveal();
+
+
+/**
+ * dynamically adjusting container for screen size > 1500px
+ */
+// Function to update container size
+function updateContainerSize() {
+
+  // Check if the screen width is greater than 1400px
+  if (window.innerWidth >= 1500) {
+    // Get the current width of the screen
+    const screenWidth = window.innerWidth;
+
+    // Calculate the container size by subtracting 50px from the screen width
+    const containerSize = screenWidth - 200;
+
+    // Set the container size dynamically using JavaScript inside the media query block
+    document.documentElement.style.setProperty('--container-size', `${containerSize}px`);
+  }
+
+}
+
+// Call the function initially
+updateContainerSize();
+
+// Event listener for window resize
+window.addEventListener('resize', updateContainerSize);
+
