@@ -514,6 +514,8 @@ body {
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
     gap: 10px; /* Space between items */
+    line-height: initial;
+    text-align: center;
 }
 
 .service-item{
