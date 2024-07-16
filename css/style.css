@@ -1306,10 +1306,10 @@ textarea{
 @media (min-width: 1700px) {
   
   .services-container {
-    max-width:1600px;
+    max-width:90vw;
    }
   
    .services-card{
-    max-width:1200px;
+    max-width:70vw;
    }
 }
