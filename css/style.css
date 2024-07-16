@@ -1302,3 +1302,14 @@ textarea{
     max-width:1200px;
    }
 }
+
+@media (min-width: 1700px) {
+  
+  .services-container {
+    max-width:1600px;
+   }
+  
+   .services-card{
+    max-width:1200px;
+   }
+}
