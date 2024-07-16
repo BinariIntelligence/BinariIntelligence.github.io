@@ -1284,14 +1284,6 @@ textarea{
   .hero-text { --fs-10: 2.4rem; }
 
   .usp { font-size: var(--fs-7); }
-
-  .services-container {
-    max-width:1600px;
-   }
-  
-   .services-card{
-    max-width:1200px;
-   }
   
 
 }
@@ -1301,4 +1293,12 @@ textarea{
     /* Set the container size dynamically using the custom property */
     max-width: var(--container-size);
   }
+
+  .services-container {
+    max-width:1600px;
+   }
+  
+   .services-card{
+    max-width:1200px;
+   }
 }
