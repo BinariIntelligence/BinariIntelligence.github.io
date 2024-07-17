@@ -1039,7 +1039,7 @@ textarea{
 
 @media (min-width: 992px) {
 
-  .hero { padding-block: 175px 100px; }
+  .hero { padding-block: 100px 100px; }
 
   /**
    * CUSTOM PROPERTY
@@ -1259,7 +1259,7 @@ textarea{
 
   }
 
-
+  .hero { padding-block: 150px 100px; }
 
   /**
    * REUSED STYLE
@@ -1286,7 +1286,9 @@ textarea{
   .hero-text { --fs-10: 2.4rem; }
 
   .usp { font-size: var(--fs-7); }
-  
+
+  .hero { padding-block: 175px 100px; }
+
 
 }
 
