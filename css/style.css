@@ -1202,7 +1202,9 @@ textarea{
    * HERO
    */
 
-  .hero, .about, .portfolio { padding-block: 100px 100px; }
+   .hero { padding-block: 175px 100px; }
+
+  .about, .portfolio { padding-block: 100px 100px; }
 
   .hero-text {
     --fs-10: 2rem;
