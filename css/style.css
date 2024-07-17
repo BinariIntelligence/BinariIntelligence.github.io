@@ -1039,6 +1039,8 @@ textarea{
 
 @media (min-width: 992px) {
 
+  .hero { padding-block: 175px 100px; }
+
   /**
    * CUSTOM PROPERTY
    */
@@ -1201,8 +1203,6 @@ textarea{
   /**
    * HERO
    */
-
-   .hero { padding-block: 175px 100px; }
 
   .about, .portfolio { padding-block: 100px 100px; }
 
