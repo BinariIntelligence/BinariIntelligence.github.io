@@ -1,0 +1,79 @@
+<!doctype html>
+<!-- © 2026 Binari Intelligence System Private Limited. All rights reserved. Design, code and animations are proprietary. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Multi-agent Gen AI platform for automotive service assistance | Case study | Binari Intelligence</title>
+<meta name="description" content="A production multi-agent, RAG-based assistant that helps service technicians with parts, diagnostics, labour times, tools, bulletins, manuals, training and symptoms, all from one conversation.">
+<link rel="canonical" href="https://binariintelligence.in/case-study/automotive-genai-service-platform">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Binari Intelligence">
+<meta property="og:title" content="Multi-agent Gen AI platform for automotive service assistance | Case study | Binari Intelligence"><meta property="og:description" content="A production multi-agent, RAG-based assistant that helps service technicians with parts, diagnostics, labour times, tools, bulletins, manuals, training and symptoms, all from one conversation."><meta property="og:url" content="https://binariintelligence.in/case-study/automotive-genai-service-platform">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B0B0A">
+<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500&family=Noto+Sans+Tamil:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Binari Intelligence", "legalName": "Binari Intelligence System Private Limited", "url": "https://binariintelligence.in", "email": "contact@binariintelligence.in", "logo": "https://binariintelligence.in/assets/img/binari-logo.png", "foundingDate": "2022-07", "description": "Gen AI and software studio building AI agents, RAG assistants, document intelligence, machine learning, NLP and computer vision systems for production.", "sameAs": ["https://www.linkedin.com/company/binariintelligence"], "telephone": "+91-99401-06194", "founder": {"@type": "Person", "name": "Roshini Kesavan", "alumniOf": ["Georgia Institute of Technology", "KTH Royal Institute of Technology", "Amrita School of Engineering"]}, "areaServed": "Worldwide", "knowsAbout": ["Gen AI", "AI agents", "RAG", "Document intelligence", "Machine learning", "Natural language processing", "Computer vision"]}</script>
+</head>
+<body data-base="../">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+<div class="wrap in">
+<a class="lockup" href="/" aria-label="Binari Intelligence home"><img src="/assets/img/binari-logo.png" alt="Binari Intelligence" width="127" height="36"></a>
+<nav class="links" aria-label="Main"><a href="/services">What we build</a><a href="/case-studies" class="active" aria-current="page">Case studies</a><a href="/about">About</a><a class="btn sm mag" href="/contact" data-book>Book a call <span class="arr">→</span></a><button type="button" class="mtoggle" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><span></span><span></span></button></nav>
+</div>
+<nav class="mnav" id="mnav" aria-label="Mobile" hidden><div class="wrap"><a href="/services">What we build</a><a href="/case-studies" class="active" aria-current="page">Case studies</a><a href="/about">About</a><a href="/contact">Contact</a></div></nav>
+</header>
+<main id="main">
+<section class="phero" style="padding-bottom:0;border-bottom:0"><div class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/case-studies">Case studies</a><span>/</span><span>Automotive · Gen AI</span></nav>
+<div class="grid" style="margin-top:20px"><div><h1 class="rv" data-rv style="margin-top:0">Multi-agent Gen AI platform for automotive service assistance</h1></div><p class="lead">A production multi-agent, RAG-based assistant that helps service technicians with parts, diagnostics, labour times, tools, bulletins, manuals, training and symptoms, all from one conversation.</p></div>
+<div class="cmeta"><div><span class="mono">Role</span><p>Senior AI Architect, end to end</p></div><div><span class="mono">Cloud</span><p>Google Cloud Platform</p></div><div><span class="mono">Models</span><p>Gemini</p></div><div><span class="mono">Orchestration</span><p>LangGraph · FastAPI</p></div></div>
+<div class="cover big" data-cover="automotive-genai-service-platform"></div>
+</div></section>
+<section class="sec" style="padding-top:clamp(40px,5vw,72px)"><div class="wrap">
+<p class="note" style="margin-bottom:8px">A global automotive manufacturer, via a specialist Gen AI consultancy</p>
+<div class="story"><span class="mono">01 · Context</span><div><h2>The situation</h2><div class="prose"><p>Service technicians rely on many separate sources: parts catalogues, diagnostic trouble codes, flat-rate labour times, special-tool lists, service bulletins, shop manuals and training videos. Finding the right answer for a vehicle in the workshop meant searching several of them.</p></div></div></div>
+<div class="story"><span class="mono">02 · Challenge</span><div><h2>What had to be true</h2><div class="prose"><p>Bring all of these into one assistant that answers accurately and quickly at a controlled cost, with the security, governance and observability a global manufacturer requires.</p></div></div></div>
+<div class="story"><span class="mono">Modules</span><div><h2>Eight service-assistance modules</h2><div class="modules"><span>Parts</span><span>Diagnostics / DTC</span><span>Flat Rate</span><span>Special Tools</span><span>Service Bulletins</span><span>Shop Manual</span><span>Training Video</span><span>Symptom-Based Assistance</span></div></div></div>
+<div class="story"><span class="mono">03 · What we built</span><div><h2>The system</h2><div class="prose"><ul><li>End-to-end AI architecture for a multi-agent RAG platform on Google Cloud</li><li>Eight service-assistance modules, each with its own retrieval and answer logic</li><li>Retrieval engineering: hybrid search across PostgreSQL / Cloud SQL (pgvector, pg_trgm), OpenSearch and Vertex AI Vector Search</li><li>Agents in Python, FastAPI and LangGraph on Gemini models, with Gemini embeddings for retrieval</li><li>Performance, model and cost optimisation, with Redis caching</li><li>Evaluation and KPIs, plus observability in Grafana and BigQuery</li><li>Security, deployment governance and workshop validation with service teams</li><li>Stakeholder management across business and engineering teams</li></ul></div></div></div>
+</div></section>
+<section class="sec ink" style="padding-block:clamp(56px,7vw,96px);border-block:1px solid var(--rule)"><div class="wrap">
+<div class="sechead"><div><div class="kick"><b>04</b> Architecture</div><h2 class="H2 rv" data-rv>How it works, step by step.</h2></div><p class="lead">Step through the system, or let it play.</p></div>
+<div class="caps"><div class="panel" data-steps="6">
+<div class="side"><ol class="steps"><li>A technician asks a question</li><li>The orchestrator routes the intent</li><li>Specialist modules take the task</li><li>Hybrid retrieval grounds the answer</li><li>Gemini writes a grounded answer</li><li>Evaluated, logged and observed</li></ol><div class="ctrl"><button data-prev>← Prev</button><button data-next>Next →</button><button data-play>Pause</button></div></div>
+<div class="stage"><svg viewBox="0 0 760 400" role="img" aria-label="Architecture: technician query, LangGraph orchestrator, eight specialist modules, hybrid retrieval, Gemini answer, observability"><path class="ed" data-s="1" d="M130 200 H170"/><path class="ed" data-s="2" d="M310 200 H340"/><path class="ed" data-s="3" d="M590 200 C600 200 600 100 610 100"/><path class="ed" data-s="4" d="M680 140 V190"/><path class="ed" data-s="5" d="M680 260 V300"/><g class="nd" data-s="0"><rect x="10" y="166" width="120" height="68"/><text x="22" y="188" class="mono2">INPUT</text><text x="22" y="211" class="big">Technician</text></g><g class="nd" data-s="1"><rect x="170" y="156" width="140" height="88"/><text x="182" y="178" class="mono2">ORCHESTRATOR</text><text x="182" y="201" class="big">LangGraph</text><text x="182" y="219">FastAPI · routing</text></g><g class="nd" data-s="2"><rect x="340" y="16" width="250" height="368"/><text x="352" y="38" class="mono2">8 SPECIALIST MODULES</text></g><g class="nd" data-s="2"><rect x="352" y="54" width="110" height="64"/><text x="362" y="78">MODULE</text><text x="362" y="100" class="big" style="font-size:13px">Parts</text></g><g class="nd" data-s="2"><rect x="472" y="54" width="110" height="64"/><text x="482" y="78">MODULE</text><text x="482" y="100" class="big" style="font-size:13px">DTC</text></g><g class="nd" data-s="2"><rect x="352" y="134" width="110" height="64"/><text x="362" y="158">MODULE</text><text x="362" y="180" class="big" style="font-size:13px">Flat Rate</text></g><g class="nd" data-s="2"><rect x="472" y="134" width="110" height="64"/><text x="482" y="158">MODULE</text><text x="482" y="180" class="big" style="font-size:13px">Special tools</text></g><g class="nd" data-s="2"><rect x="352" y="214" width="110" height="64"/><text x="362" y="238">MODULE</text><text x="362" y="260" class="big" style="font-size:13px">Bulletins</text></g><g class="nd" data-s="2"><rect x="472" y="214" width="110" height="64"/><text x="482" y="238">MODULE</text><text x="482" y="260" class="big" style="font-size:13px">Shop manual</text></g><g class="nd" data-s="2"><rect x="352" y="294" width="110" height="64"/><text x="362" y="318">MODULE</text><text x="362" y="340" class="big" style="font-size:13px">Training</text></g><g class="nd" data-s="2"><rect x="472" y="294" width="110" height="64"/><text x="482" y="318">MODULE</text><text x="482" y="340" class="big" style="font-size:13px">Symptoms</text></g><g class="nd" data-s="3"><rect x="610" y="60" width="140" height="80"/><text x="622" y="82" class="mono2">RETRIEVAL</text><text x="622" y="105" class="big">Hybrid search</text><text x="622" y="123">vector + keyword</text></g><g class="nd" data-s="4"><rect x="610" y="190" width="140" height="70"/><text x="622" y="212" class="mono2">GENERATE</text><text x="622" y="235" class="big">Gemini</text><text x="622" y="252">grounded answer</text></g><g class="nd" data-s="5"><rect x="610" y="300" width="140" height="70"/><text x="622" y="322" class="mono2">OBSERVE</text><text x="622" y="345" class="big">Grafana · evals</text><text x="622" y="362">BigQuery · KPIs</text></g></svg></div></div></div>
+</div></section>
+<section class="sec"><div class="wrap">
+<div class="story"><span class="mono">05 · Outcome</span><div><p class="bigquote">Service teams get parts, diagnostics, repair times and procedures from one grounded assistant instead of eight separate sources.</p></div></div>
+<div class="story"><span class="mono">06 · Stack</span><div class="tags"><span>Python</span><span>FastAPI</span><span>LangGraph</span><span>Google Cloud</span><span>Gemini</span><span>PostgreSQL / Cloud SQL</span><span>pgvector</span><span>pg_trgm</span><span>OpenSearch</span><span>Vertex AI Vector Search</span><span>Redis</span><span>BigQuery</span><span>Grafana</span></div></div>
+<a class="nextcase" href="/case-study/document-block-platform" style="margin-top:36px"><span><span class="mono" style="color:var(--mute);display:block;margin-bottom:6px">Next case · Documents · Gen AI</span><b>Block extraction, search and edit platform for documents</b></span><span class="arr" aria-hidden="true">→</span></a>
+</div></section>
+</main>
+<section class="ink cta-sec" data-paper>
+<div class="wrap cta">
+<div class="kick"><b>●</b> Next step</div>
+<h2 class="rv" data-rv style="margin-top:22px">Building something similar? Let&#x27;s talk.</h2>
+<div class="row">
+<a class="btn mag" href="/contact" data-book>Book a 30-minute call <span class="arr">→</span></a>
+<button type="button" class="mailcopy" data-copy="contact@binariintelligence.in" title="Click to copy"><span class="addr" id="email-work-automotive-genai-service-platform">contact@binariintelligence.in</span><span class="cp" aria-live="polite"></span></button>
+</div>
+</div>
+</section>
+<footer class="ink site-foot">
+<div class="wrap in">
+<div><a href="/" aria-label="Binari Intelligence home" style="display:inline-block;margin-bottom:16px"><img src="/assets/img/binari-logo.png" alt="Binari Intelligence" width="176" height="50"></a><p>Gen AI &amp; software studio. Binari Intelligence System Private Limited. Remote-first, working with clients globally.</p></div>
+<div><b>Build</b><ul><li><a href="/services#gen">Gen AI</a></li><li><a href="/services#ml">Machine learning</a></li><li><a href="/services#nlp">NLP &amp; speech</a></li><li><a href="/services#cv">Computer vision</a></li><li><a href="/services#also">Custom software, Web and Mobile apps</a></li></ul></div>
+<div><b>Company</b><ul><li><a href="/case-studies">Case studies</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy">Privacy</a></li></ul></div>
+<div><b>Contact</b><ul><li><button type="button" class="mailcopy" data-copy="contact@binariintelligence.in" title="Click to copy"><span class="addr" id="email-footer">contact@binariintelligence.in</span><span class="cp" aria-live="polite"></span></button></li><li><a href="https://www.linkedin.com/company/binariintelligence" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><span class="phonerow"><button type="button" class="mailcopy" data-copy="+91 99401 06194" title="Click to copy"><span class="addr" id="phone-footer">+91 99401 06194</span><span class="cp" aria-live="polite"></span></button><a class="wa" href="https://wa.me/919940106194?text=Hi%20Binari%2C%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp ↗</a></span></li></ul></div>
+</div>
+<div class="wrap legal"><p>© 2026 Binari Intelligence System Private Limited. All rights reserved. Site design, code, animations and visuals are proprietary and may not be copied or reused without written permission.</p></div>
+</footer>
+<script src="/assets/viz.js" defer></script>
+<script src="/assets/cases.js" defer></script>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
