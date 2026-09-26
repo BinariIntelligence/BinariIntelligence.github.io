@@ -1,378 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- © 2026 Binari Intelligence System Private Limited. All rights reserved. Design, code and animations are proprietary. -->
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Binari Intelligence</title>
-  <meta name="title" content="Binari Intelligence">
-  <meta name="description" content="Empowering business through 
-  Artificial Intelligence, Machine Learning, Computer Vision, Natural Language Processing, Custom Software Development, Web and Mobile App Development.
-  We build cutting-edge software to drive digital transformation for your business">
-
-  <!-- 
-    - BI Logo
-  -->
-  <link rel="shortcut icon" href="./images/BI Logo.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./css/style.css">
-
-  <!-- 
-    - custom font link
-  -->
-  <link rel="stylesheet" href="./font/font.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./images/BI Logo.svg">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Binari Intelligence | Production Gen AI, AI agents &amp; ML engineering</title>
+<meta name="description" content="Binari Intelligence designs and builds production Gen AI: AI agents, RAG knowledge assistants and document intelligence, backed by machine learning, NLP and computer vision.">
+<link rel="canonical" href="https://binariintelligence.in/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Binari Intelligence">
+<meta property="og:title" content="Binari Intelligence | Production Gen AI, AI agents &amp; ML engineering"><meta property="og:description" content="Binari Intelligence designs and builds production Gen AI: AI agents, RAG knowledge assistants and document intelligence, backed by machine learning, NLP and computer vision."><meta property="og:url" content="https://binariintelligence.in/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B0B0A">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500&family=Noto+Sans+Tamil:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Binari Intelligence", "legalName": "Binari Intelligence System Private Limited", "url": "https://binariintelligence.in", "email": "contact@binariintelligence.in", "logo": "https://binariintelligence.in/assets/img/binari-logo.png", "foundingDate": "2022-07", "description": "Gen AI and software studio building AI agents, RAG assistants, document intelligence, machine learning, NLP and computer vision systems for production.", "sameAs": ["https://www.linkedin.com/company/binariintelligence"], "telephone": "+91-99401-06194", "founder": {"@type": "Person", "name": "Roshini Kesavan", "alumniOf": ["Georgia Institute of Technology", "KTH Royal Institute of Technology", "Amrita School of Engineering"]}, "areaServed": "Worldwide", "knowsAbout": ["Gen AI", "AI agents", "RAG", "Document intelligence", "Machine learning", "Natural language processing", "Computer vision"]}</script>
 </head>
-
-<body class="active">
-
-  <!-- 
-    -#PRELOADING
-  -->
-
-  <div class="loading" data-loading>
-    <img src="./images/BI Logo.svg" width="55" height="55" alt="loading" class="img">
-  </div>
-
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header">
-    <!-- <div class="container"> -->
-      <div class="top-navbar">
-
-        <a href="index.html" class="toplogo">
-          <img src="./images/BI Logo.svg" width="40" height="40" alt="Home"> BINARI INTELLIGENCE
-        </a>
-
-        <ul class="navbar-top-list">
-
-          <li class="navbar-item">
-            <a href="index.html" class = "navbar-link">SERVICES</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="technology.html" class = "navbar-link">TECHNOLOGY</a>
-          </li>
-
-          <!-- <li class="navbar-item">
-            <a href="portfolio.html" class = "navbar-link">PORTFOLIO</a>
-          </li> -->
-
-          <li class="navbar-item">
-            <a href="contact.html" class = "navbar-link">CONTACT US</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class = "side-navbar">
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-          <img src="./images/menu.svg" width="20" height="20" alt="menu icon">
-        </button>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-close">
-            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-              <span class="span one"></span>
-              <span class="span two"></span>
-            </button>
-          </div>
-
-          <ul class="navbar-list">
-            <li>
-              <a href="index.html">
-                <img src="./images/BI Logo.svg" width="40" height="40" alt="Home" class="navbar-img" data-nav-link>
-              </a>
-            </li>
-
-            <li>
-              <a href="index.html" class="navbar-link" data-nav-link>SERVICES</a>
-            </li>
-
-            <li>
-              <a href="technology.html" class="navbar-link" data-nav-link>TECHOLOGY</a>
-            </li>
-
-            <!-- <li>
-              <a href="portfolio.html" class="navbar-link" data-nav-link>PORTFOLIO</a>
-            </li> -->
-
-            <li>
-              <a href="contact.html" class="navbar-link" data-nav-link>CONTACT US</a>
-            </li>
-          </ul>
-
-        </nav>
-
-        <div class="overlay" data-nav-toggler data-overlay></div>
-      </div>
-    <!-- </div> -->
-  </header>
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero" id="home" aria-label="home">
-        
-        <div class="container">
-          <ul class="banner-list">   
-              <img class = "leftelem" src="./images/face2.png" width = "500">  
-
-              <div class = "rightelem">
-                <ul class="logo-list">
-
-                  <li><img src = "./images/BI Logo.svg" width = "100" height = "100"></li>
-                  <li><img class="invert-image" src="./images/Binari Partial Logo.png" width = "250" height = "150" alt="Binari Intelligence"></li>
-
-                  <div class="hero-content">
-
-                    <p class="hero-text">Empowering business through</p>
-    
-                    <div>
-                      <a href="#ai_serv"><h2 class="usp" word-effect>Artificial Intelligence</h2></a>
-                      <a href="#ai_serv"><h2 class="usp" word-effect>Machine Learning</h2></a>
-                      <a href="#cv_serv"><h2 class="usp" word-effect>Computer Vision</h2></a>              
-                      <a href="#nlp_serv"><h2 class="usp" word-effect>Natural Language Processing</h2></a>
-                      <a href="#webm_serv"><h2 class="usp" word-effect>Web and Mobile App Development</h2></a>
-                      <a href="#csoft_serv"><h2 class="usp" word-effect>Custom Software Development</h2></a>                      
-                      <a href="#data_serv"><h2 class="usp" word-effect>Data Analytics</h2></a>
-                    </div>
-                  
-                  </div>
-
-                </ul>
-              </div>
-          </ul>
-
-        </div>
-      </section>
-
-      <!-- 
-        - #SERVICES
-      -->
-
-      <section class="services-section" id="services" aria-label="services">
-        <div class="services-container">
-          <div class="services-heading">
-            <h3>Services</h3>
-        </div>
-          
-          <div class="services-text services-head" id="ai_serv">
-            <h4>AI & ML</h4>
-          </div>
-          <div class="services-row">
-            <!-- <p class="services-text services-head">AI & ML</p> -->
-            <div class="services-card">
-                <img src="./images/ai.png" alt="ai">
-            </div>
-            <div class="services-card">
-                <ul class="scrollable-list">
-                  <li>AI Strategy Consultation</li>
-                  <li>Design and Prototyping</li>
-                  <li>AI Agents</li>
-                  <li>AI Chatbots with RAG</li>
-                  <li>Anomaly Detection</li>
-                  <li>Predictive and Prescriptive Models</li>
-                  <li>AI-Powered Recommender Systems</li>
-                  <li>Customer Segmentation</li>
-                  <li>Retail Demand Forecasting</li>
-                  <li>Generative AI for Realistic Images</li>
-                  <li>Generative Models for Sentiment Analysis</li>
-                  <li>Computer Adaptive Test (CAT)</li>
-                  <li>Real-Time Personalization</li>
-                  <li>Inference Engines</li>
-                  <li>Content Recommendation Engines</li>
-                  <li>Generative AI for Content Creation</li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="services-text services-head" id="nlp_serv">
-            <h4>NLP</h4>
-          </div>
-          <div class="services-row">
-            <!-- <p class="services-text services-head">NLP</p> -->
-            <div class="services-card">
-                <img src="./images/nlp.png" alt="nlp">
-            </div>
-            <div class="services-card">
-                <ul class="scrollable-list">
-                  <li>Chatbot Development</li>
-                  <li>NLP-Powered Search Engines</li>
-                  <li>Speech Recognition</li>
-                  <li>Text-to-Speech and Speech-to-Text</li>
-                  <li>Translation and Localization with AI</li>
-                  <li>Named Entity Recognition (NER)</li>
-                  <li>Sentiment Analysis and Feedback</li>
-                  <li>Social Media Monitoring</li>
-                  <li>AI-Generated Voice and Audio</li>
-                  <li>Voice-Controlled Systems and Interfaces</li>
-                  <li>Automated Document Summarization</li>
-                  <li>Historical Document Digitization</li>
-                  <li>Automated Scriptwriting and Storytelling</li>
-                  <li>Intelligent Tutoring Systems</li>
-                  <li>Real-Time Multilingual Customer Support</li>
-                  <li>Automated Subtitling for Videos</li>
-                  <li>Automated FAQ Generation</li>
-                  <li>Conversational UIs for Apps</li>
-                  <li>Customer Service Automation</li>
-                  <li>AI-Powered Chat and Email Assistants</li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="services-text services-head" id="cv_serv">
-            <h4>COMPUTER VISION</h4>
-          </div>
-          <div class="services-row" id="cv_serv">
-            <!-- <p class="services-text services-head">COMPUTER VISION</p> -->
-            <div class="services-card">
-                <img src="./images/cv.png" alt="cv">
-            </div>
-            <div class="services-card">
-                <ul class="scrollable-list">
-                  <li>Generative AI for Realistic Images</li>
-                  <li>Facial Recognition and Authentication</li>
-                  <li>Public Safety and Crowd Management</li>
-                  <li>Occlusion Detection</li>
-                  <li>Drone Imagery Analysis</li>
-                  <li>Emotion Recognition</li>
-                  <li>Wildlife Monitoring and Conservation</li>
-                  <li>Automated Retail Checkout Systems</li>
-                  <li>Vehicle and Pedestrian Traffic Analysis</li>
-                  <li>Automated Inspection and Quality Control</li>
-                  <li>Surveillance and Monitoring Solutions</li>
-                  <li>Real-Time Sign Language Interpretation</li>
-                  <li>Real-Time Video Analysis Systems</li>
-                  <li>Image Recognition and Processing</li>
-                  <li>Object Detection and Classification</li>
-                  <li>Image Segmentation</li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="services-text services-head" id="webm_serv">
-            <h4>WEB AND MOBILE APP</h4>
-          </div>
-          <div class="services-row">
-            <!-- <p class="services-text services-head">WEB AND MOBILE APP</p> -->
-            <div class="services-card">
-                <img src="./images/app.png" alt="web app">
-            </div>
-            <div class="services-card">
-                <ul class="scrollable-list">
-                  <li>Prototyping and Wireframing</li>
-                  <li>Responsive UX &UI Design</li>
-                  <li>Cross-Platform Mobile App Development</li>
-                  <li>SEO Optimization and Web Analytics</li>
-                  <li>E-commerce Website Solutions</li>
-                  <li>Generative Chatbots for Customer Service</li>
-                  <li>Online Learning Management Systems</li>
-                  <li>Fitness and Health App Development</li>
-                  <li>Educational and E-Learning Apps</li>
-                  <li>Subscription-Based Content Platforms</li>
-                  <li>Event Registration and Ticketing</li>
-                  <li>Custom Blog Design</li>
-                  <li>Multilingual Websites</li>
-                  <li>Travel Itinerary Planning Apps</li>
-                  <li>Language Learning Apps</li>
-                  <li>Mental Health and Meditation Apps</li>
-                  <li>Maintenance and Support Services</li>
-                  <li>API Development and Integration</li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="services-text services-head" id="csoft_serv">
-            <h4>CUSTOM SOFTWARE</h4>
-          </div>
-          <div class="services-row">
-            <!-- <p class="services-text services-head">CUSTOM SOFTWARE</p> -->
-            <div class="services-card">
-                <img src="./images/sw.png" alt="sw">
-            </div>
-            <div class="services-card">
-                <ul class="scrollable-list">
-                  <li>Microservices</li>
-                  <li>Serverless Architecture</li>
-                  <li>Scalable Cloud Application</li>
-                  <li>Database Development</li>
-                  <li>Continuous Integration (CI)</li>
-                  <li>Continuous Deployment (CD)</li>
-                  <li>API Development and Integration</li>
-                  <li>Customized CDN</li>
-                  <li>Custom Payment Gateway Integration</li>
-                  <li>B2B and B2C Marketplace Platforms</li>
-                  <li>Legacy System Modernization</li>
-                  <li>Bespoke E-commerce Platform</li>
-                  <li>Healthcare Management Software</li>
-                  <li>IoT System Development and Integration</li>
-                  <li>Real Estate Management Systems</li>
-                  <li>Educational Management Systems</li>
-                  <li>Inventory and Order Management Systems</li>
-                  <li>Fleet Management Software</li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="services-text services-head" id="data_serv">
-            <h4>DATA ANALYTICS</h4>
-          </div>
-          <div class="services-row">
-            <!-- <p class="services-text services-head">DATA ANALYTICS</p> -->
-            <div class="services-card">
-                <img src="./images/data.png" alt="data">
-            </div>
-            <div class="services-card">
-                <ul class="scrollable-list">
-                  <li>Business Intelligence Solutions</li>
-                  <li>Data Visualization</li>
-                  <li>Interactive Dashboards</li>
-                  <li>Real-Time IoT Data Analytics</li>
-                  <li>Predictive Analytics and Forecasting</li>
-                  <li>Customer Behavior Analytics</li>
-                  <li>Social Media Trend Analysis</li>
-                  <li>Customer Churn Prediction Models</li>
-                  <li>Environmental Data Reporting</li>
-                  <li>Data Warehousing and ETL Services</li>
-                  <li>Custom Reporting Dashboards</li>
-                  <li>AI for Health Data Analysis</li>
-                  <li>AI-Generated Business Insights</li>
-                  <li>Sentiment Analysis for Market Research</li>
-                </ul>
-            </div>
-          </div>
-      </div>
-      </section>
-
-    </article>
-  </main>
-  
-  <!-- 
-    - custom js link
-  -->
-  <script src="./js/script.js"></script>
-  
+<body data-base="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+<div class="wrap in">
+<a class="lockup" href="index.html" aria-label="Binari Intelligence home"><img src="assets/img/binari-logo.png" alt="Binari Intelligence" width="127" height="36"></a>
+<nav class="links" aria-label="Main"><a href="services.html">What we build</a><a href="work.html">Case studies</a><a href="about.html">About</a><a class="btn sm mag" href="contact.html" data-book>Book a call <span class="arr">→</span></a><button type="button" class="mtoggle" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><span></span><span></span></button></nav>
+</div>
+<nav class="mnav" id="mnav" aria-label="Mobile" hidden><div class="wrap"><a href="services.html">What we build</a><a href="work.html">Case studies</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></nav>
+</header>
+<main id="main">
+<!-- HERO -->
+<section class="hero hero-one" id="hero" data-paper>
+<div class="wrap">
+<div class="kick">Gen AI &amp; software studio</div>
+<h1 class="rv" data-rv>Ship production Gen AI in weeks, not quarters.</h1>
+<div class="hero-row">
+<p class="sub">AI agents, knowledge assistants and document intelligence, built for production and owned by you.</p>
+<div class="ctas"><a class="btn mag" href="contact.html" data-book>Book a 30-minute call <span class="arr">→</span></a><a class="ghost" href="services.html">See what we build</a></div>
+</div>
+<div class="hero-demo" aria-label="Example: an AI agent turns a customer email into a structured action">
+<div class="mail" id="mailC"><div class="from">FROM: ops@dealer-network · 09:42</div>Hi, our <span class="hl">Pune service centre</span> keeps getting <span class="hl">warranty claims rejected</span> for the same part. Can someone <span class="hl">check the last 30 claims</span> before <span class="hl">Friday's audit</span>? It's getting urgent.</div>
+<div class="arrowdown"><span>AI AGENT</span><i></i></div>
+<div class="card" id="cardC">
+<div class="row"><div class="k">Site</div><div class="v">Pune service centre</div></div>
+<div class="row"><div class="k">Issue</div><div class="v">Warranty claims rejected, same part</div></div>
+<div class="row"><div class="k">Action</div><div class="v">Review last 30 claims <span class="tag">AGENT</span></div></div>
+<div class="row"><div class="k">Deadline</div><div class="v">Fri 26 Sep <span class="tag">URGENT</span></div></div>
+</div>
+</div>
+</div>
+</section>
+<!-- WHY -->
+<section class="sec" id="why">
+<div class="wrap">
+<div class="sechead">
+<div><div class="kick">Why Binari</div><h2 class="H2 rv" data-rv>Production AI, engineered properly.</h2></div>
+<p class="lead">Most Gen AI projects stall after the demo. We design for the system you will run every day: reliable, measurable and yours to keep.</p>
+</div>
+<div class="why">
+<div><span class="mono">Architecture first</span><h3>Designed before it's built.</h3><p>Every engagement starts with the architecture: data, models, guardrails and how it fits your systems.</p></div>
+<div><span class="mono">One team, full stack</span><h3>Models to product.</h3><p>The same team builds the AI, the backend, the interface and the cloud setup. No hand-offs, no gaps.</p></div>
+<div><span class="mono">Built to be owned</span><h3>Your code, your models.</h3><p>Everything runs in your cloud with your keys. You get the code, the documentation and a team that can run it.</p></div>
+</div>
+</div>
+</section>
+<!-- AGENTS -->
+<section class="sec ink" id="agents" style="border-block:1px solid var(--rule)">
+<div class="wrap">
+<div class="sechead">
+<div><div class="kick"><b>●</b> Gen AI</div><h2 class="H2 rv" data-rv>Agents that act, inside your rules.</h2></div>
+<p class="lead">Multi-step agents that plan, call your systems, pass guardrails and hand off to people when it matters.</p>
+</div>
+<div class="caps">
+<div class="panel" data-steps="6">
+<div class="side">
+<ol class="steps"><li>A support ticket arrives</li><li>The agent plans the steps</li><li>It calls your tools</li><li>A guardrail checks the action</li><li>A person approves</li><li>Resolved and logged</li></ol>
+<div class="ctrl"><button data-prev>← Prev</button><button data-next>Next →</button><button data-play>Pause</button></div>
+</div>
+<div class="stage">
+<svg viewBox="0 0 760 360" role="img" aria-label="Agent workflow: ticket, planner, three tools, guardrail, human approval, resolved">
+<path class="ed" data-s="1" d="M130 180 H210"/>
+<path class="ed" data-s="2" d="M330 180 C370 180 370 70 420 70"/>
+<path class="ed" data-s="2" d="M330 180 H420"/>
+<path class="ed" data-s="2" d="M330 180 C370 180 370 290 420 290"/>
+<path class="ed" data-s="3" d="M560 70 C600 70 590 180 610 180"/>
+<path class="ed" data-s="3" d="M560 180 H610"/>
+<path class="ed" data-s="3" d="M560 290 C600 290 590 180 610 180"/>
+<path class="ed" data-s="4" d="M680 212 V250"/>
+<path class="ed" data-s="5" d="M680 316 V330 H120 V214"/>
+<g class="nd" data-s="0"><rect x="10" y="146" width="120" height="68"/><text x="22" y="170" class="mono2">TRIGGER</text><text x="22" y="194" class="big">New ticket</text></g>
+<g class="nd" data-s="1"><rect x="210" y="140" width="120" height="80"/><text x="222" y="164" class="mono2">PLANNER</text><text x="222" y="188" class="big">LLM</text><text x="222" y="206">3 steps</text></g>
+<g class="nd" data-s="2"><rect x="420" y="40" width="140" height="60"/><text x="432" y="62" class="mono2">TOOL</text><text x="432" y="84" class="big">Knowledge base</text></g>
+<g class="nd" data-s="2"><rect x="420" y="150" width="140" height="60"/><text x="432" y="172" class="mono2">TOOL</text><text x="432" y="194" class="big">Order system</text></g>
+<g class="nd" data-s="2"><rect x="420" y="260" width="140" height="60"/><text x="432" y="282" class="mono2">TOOL</text><text x="432" y="304" class="big">Refund policy</text></g>
+<g class="nd" data-s="3"><rect x="610" y="148" width="140" height="64"/><text x="622" y="170" class="mono2">GUARDRAIL</text><text x="622" y="194" class="big">Within limits</text></g>
+<g class="nd" data-s="4"><rect x="610" y="250" width="140" height="66"/><text x="622" y="272" class="mono2">HUMAN</text><text x="622" y="296" class="big">Approve ✓</text></g>
+<g class="fade" data-s="5"><rect x="150" y="238" width="190" height="40" fill="none" stroke="#FF4B22"/><text x="162" y="263" fill="#FF4B22" font-family="IBM Plex Mono, monospace" font-size="12">RESOLVED · LOGGED</text></g>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EXPLORER -->
+<section class="sec" id="build">
+<div class="wrap">
+<div class="sechead">
+<div><div class="kick">What we build</div><h2 class="H2 rv" data-rv>See it working, not just listed.</h2></div>
+<p class="lead">Every card is a live example of a system we design and build across Gen AI, Machine learning, NLP and Computer Vision.</p>
+</div>
+<div data-explorer><div class="tabs" role="tablist" aria-label="Use-case categories"></div><div class="panels"></div></div>
+</div>
+</section>
+<!-- WORK -->
+<section class="sec" id="work" style="padding-top:0">
+<div class="wrap">
+<div class="sechead">
+<div><div class="kick">Case studies</div><h2 class="H2 rv" data-rv>Systems in production.</h2></div>
+<p class="lead">Each project shown the way the system sees it.</p>
+</div>
+<div class="wgrid wgrid3" data-cases="featured"></div><div class="center-cta"><a class="ghost" href="work.html">All case studies →</a></div>
+</div>
+</section>
+</main>
+<section class="ink cta-sec" data-paper>
+<div class="wrap cta">
+<div class="kick"><b>●</b> Next step</div>
+<h2 class="rv" data-rv style="margin-top:22px">Tell us what you&#x27;re trying to ship.</h2>
+<div class="row">
+<a class="btn mag" href="contact.html" data-book>Book a 30-minute call <span class="arr">→</span></a>
+<button type="button" class="mailcopy" data-copy="contact@binariintelligence.in" title="Click to copy"><span class="addr" id="email-index">contact@binariintelligence.in</span><span class="cp" aria-live="polite"></span></button>
+</div>
+</div>
+</section>
+<footer class="ink site-foot">
+<div class="wrap in">
+<div><a href="index.html" aria-label="Binari Intelligence home" style="display:inline-block;margin-bottom:16px"><img src="assets/img/binari-logo.png" alt="Binari Intelligence" width="176" height="50"></a><p>Gen AI &amp; software studio. Binari Intelligence System Private Limited. Remote-first, working with clients globally.</p></div>
+<div><b>Build</b><ul><li><a href="services.html#gen">Gen AI</a></li><li><a href="services.html#ml">Machine learning</a></li><li><a href="services.html#nlp">NLP &amp; speech</a></li><li><a href="services.html#cv">Computer vision</a></li><li><a href="services.html#also">Custom software, Web and Mobile apps</a></li></ul></div>
+<div><b>Company</b><ul><li><a href="work.html">Case studies</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy.html">Privacy</a></li></ul></div>
+<div><b>Contact</b><ul><li><button type="button" class="mailcopy" data-copy="contact@binariintelligence.in" title="Click to copy"><span class="addr" id="email-footer">contact@binariintelligence.in</span><span class="cp" aria-live="polite"></span></button></li><li><a href="https://www.linkedin.com/company/binariintelligence" target="_blank" rel="noopener">LinkedIn ↗</a></li><li><span class="phonerow"><button type="button" class="mailcopy" data-copy="+91 99401 06194" title="Click to copy"><span class="addr" id="phone-footer">+91 99401 06194</span><span class="cp" aria-live="polite"></span></button><a class="wa" href="https://wa.me/919940106194?text=Hi%20Binari%2C%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp ↗</a></span></li></ul></div>
+</div>
+<div class="wrap legal"><p>© 2026 Binari Intelligence System Private Limited. All rights reserved. Site design, code, animations and visuals are proprietary and may not be copied or reused without written permission.</p></div>
+</footer>
+<script src="assets/viz.js" defer></script>
+<script src="assets/cases.js" defer></script>
+<script src="assets/site.js" defer></script>
 </body>
-
 </html>
